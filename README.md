@@ -54,6 +54,7 @@ Firstness ←──────────────────→ Secondnes
 - **Cross-Domain Recognition**: Identify isomorphisms across domains
 - **Framework Translation**: Bridge to AQAL and Critical Realist models
 - **Pattern Relational Explorer**: Interactive 7×7 matrix with 49 relationships ✨ NEW
+- **Rooted Trees 48 Explorer**: OEIS A000081 trees mapped to Pattern Dynamics ✨ NEW
 - **Holarchical Relations**: Seven types of hierarchical pattern organization ✨ NEW
 - **Meta-Patterns**: Six second-order emergent patterns ✨ NEW
 - **Global Processes**: Eight numbered processes governing evolution ✨ NEW
@@ -94,13 +95,17 @@ pattern-dynamics-int/
 │   │   ├── pattern-dynamics.types.ts       # PD types ✨ NEW
 │   │   ├── pattern-relational.types.ts     # Relational types ✨ NEW
 │   │   ├── pattern-relational.data.ts      # 49 relationships ✨ NEW
-│   │   └── pattern-relational.test.ts      # Relational tests ✨ NEW
+│   │   ├── pattern-relational.test.ts      # Relational tests ✨ NEW
+│   │   ├── rooted-trees-48.types.ts        # Tree type definitions ✨ NEW
+│   │   ├── rooted-trees-48.data.ts         # Tree generation & mapping ✨ NEW
+│   │   └── rooted-trees-48.test.ts         # Tree tests ✨ NEW
 │   ├── components/
 │   │   ├── InfinityLoop.tsx               # Main visualization
 │   │   ├── PatternRelationalExplorer.tsx  # 7×7 matrix explorer ✨ NEW
+│   │   ├── RootedTrees48Explorer.tsx      # 48 trees explorer ✨ NEW
 │   │   ├── NodeDetailPanel.tsx            # Detail view
 │   │   └── ui/                            # UI components
-│   └── App.tsx                            # Main application
+│   └── App.tsx                            # Main application (3 tabs) ✨ NEW
 │
 ├── patterns/                       # Pattern Dynamics materials
 │   ├── (30+ diagrams and images)
@@ -191,6 +196,7 @@ guile -l pattern-archetype.scm -l advanced-patterns.scm -l extended-use-cases.sc
 import { createEcosystemArchetype } from '@/lib/extended-use-cases';
 import { validatePerspectives, evolvePatternDetailed } from '@/lib/advanced-patterns';
 import { PATTERN_MATRIX, evaluateRelation } from '@/lib/pattern-relational.types';
+import { generateComplete48TreeMapping } from '@/lib/rooted-trees-48.data';
 
 // Create an archetype
 const ecosystem = createEcosystemArchetype();
@@ -210,6 +216,12 @@ console.log(sourceToDynamics.cellNumber);    // 40
 // Evaluate relational expression
 const expr = evaluateRelation('source', '⊂', 'dynamics');
 console.log(expr);  // "source ⊂ dynamics → Creative Grace"
+
+// Generate 48 rooted trees ✨ NEW
+const mapping = generateComplete48TreeMapping();
+console.log(`Generated ${mapping.trees.length} trees`);  // 48
+console.log('First tree:', mapping.trees[0].string);  // "((((((()))))))"
+console.log('Tree depth range:', mapping.statistics[0]);
 ```
 
 ### Scheme
