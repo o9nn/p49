@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Exchange Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS PROCESS</pattern>
+    <template>Process is Linear stage-by-stage development - sequential unfolding</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT PROCESS</pattern>
+    <template>Process is Linear stage-by-stage development - sequential unfolding</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN PROCESS</pattern>
+    <template>Process: Linear stage-by-stage development - sequential unfolding</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE PROCESS</pattern>
+    <template>Linear stage-by-stage development - sequential unfolding</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF PROCESS</pattern>
+    <template>Operation dynamics: balance process efficiency with process thoroughness</template>
+  </category>
+
+  <category>
+    <pattern>PROCESS PRINCIPLE</pattern>
+    <template>The principle of process is: Operation dynamics: balance process efficiency with process thoroughness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF PROCESS</pattern>
+    <template>Enable ordered progression</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS OPERATION DYNAMICS</pattern>
+    <template>operation-dynamics is another name for process. Linear stage-by-stage development - sequential unfolding</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS PROCESS</pattern>
+    <template>process is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS PROCESS</pattern>
+    <template>process is part of the exchange family, created from exchange × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS UNIQUENESS</pattern>
+    <template>Uniqueness is Difference between elements - distinctive character</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT UNIQUENESS</pattern>
+    <template>Uniqueness is Difference between elements - distinctive character</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN UNIQUENESS</pattern>
+    <template>Uniqueness: Difference between elements - distinctive character</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE UNIQUENESS</pattern>
+    <template>Difference between elements - distinctive character</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF UNIQUENESS</pattern>
+    <template>Exchange creation: balance uniqueness with commonality</template>
+  </category>
+
+  <category>
+    <pattern>UNIQUENESS PRINCIPLE</pattern>
+    <template>The principle of uniqueness is: Exchange creation: balance uniqueness with commonality</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF UNIQUENESS</pattern>
+    <template>Enable specialized contributions</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EXCHANGE CREATION</pattern>
+    <template>exchange-creation is another name for uniqueness. Difference between elements - distinctive character</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS UNIQUENESS</pattern>
+    <template>uniqueness is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS UNIQUENESS</pattern>
+    <template>uniqueness is part of the exchange family, created from exchange × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS TRADE</pattern>
+    <template>Trade is Simple reciprocation - mutual exchange</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT TRADE</pattern>
+    <template>Trade is Simple reciprocation - mutual exchange</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN TRADE</pattern>
+    <template>Trade: Simple reciprocation - mutual exchange</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE TRADE</pattern>
+    <template>Simple reciprocation - mutual exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF TRADE</pattern>
+    <template>Essence of exchange: balance giving with receiving</template>
+  </category>
+
+  <category>
+    <pattern>TRADE PRINCIPLE</pattern>
+    <template>The principle of trade is: Essence of exchange: balance giving with receiving</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF TRADE</pattern>
+    <template>Enable fair transactions</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ESSENCE OF EXCHANGE</pattern>
+    <template>essence-of-exchange is another name for trade. Simple reciprocation - mutual exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS TRADE</pattern>
+    <template>trade is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS TRADE</pattern>
+    <template>trade is part of the exchange family, created from exchange × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CAPTURE</pattern>
+    <template>Capture is Structure to obtain yield - harvesting mechanism</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT CAPTURE</pattern>
+    <template>Capture is Structure to obtain yield - harvesting mechanism</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN CAPTURE</pattern>
+    <template>Capture: Structure to obtain yield - harvesting mechanism</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE CAPTURE</pattern>
+    <template>Structure to obtain yield - harvesting mechanism</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF CAPTURE</pattern>
+    <template>Flow container: balance capture efficiency with flow continuity</template>
+  </category>
+
+  <category>
+    <pattern>CAPTURE PRINCIPLE</pattern>
+    <template>The principle of capture is: Flow container: balance capture efficiency with flow continuity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF CAPTURE</pattern>
+    <template>Enable resource acquisition</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FLOW CONTAINER</pattern>
+    <template>flow-container is another name for capture. Structure to obtain yield - harvesting mechanism</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS CAPTURE</pattern>
+    <template>capture is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS CAPTURE</pattern>
+    <template>capture is part of the exchange family, created from exchange × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS BALANCE</pattern>
+    <template>Balance is Dynamic equilibrium - stable interplay</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT BALANCE</pattern>
+    <template>Balance is Dynamic equilibrium - stable interplay</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN BALANCE</pattern>
+    <template>Balance: Dynamic equilibrium - stable interplay</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE BALANCE</pattern>
+    <template>Dynamic equilibrium - stable interplay</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF BALANCE</pattern>
+    <template>Relational duality: balance opposing forces for dynamic equilibrium</template>
+  </category>
+
+  <category>
+    <pattern>BALANCE PRINCIPLE</pattern>
+    <template>The principle of balance is: Relational duality: balance opposing forces for dynamic equilibrium</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF BALANCE</pattern>
+    <template>Enable sustainable relationships</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RELATIONAL DUALITY</pattern>
+    <template>relational-duality is another name for balance. Dynamic equilibrium - stable interplay</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS BALANCE</pattern>
+    <template>balance is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS BALANCE</pattern>
+    <template>balance is part of the exchange family, created from exchange × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CYCLE</pattern>
+    <template>Cycle is Circuit of phases - recurring sequence</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT CYCLE</pattern>
+    <template>Cycle is Circuit of phases - recurring sequence</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN CYCLE</pattern>
+    <template>Cycle: Circuit of phases - recurring sequence</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE CYCLE</pattern>
+    <template>Circuit of phases - recurring sequence</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF CYCLE</pattern>
+    <template>Exchange phases: balance cycle completion with cycle renewal</template>
+  </category>
+
+  <category>
+    <pattern>CYCLE PRINCIPLE</pattern>
+    <template>The principle of cycle is: Exchange phases: balance cycle completion with cycle renewal</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF CYCLE</pattern>
+    <template>Enable sustainable circulation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EXCHANGE PHASES</pattern>
+    <template>exchange-phases is another name for cycle. Circuit of phases - recurring sequence</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS CYCLE</pattern>
+    <template>cycle is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS CYCLE</pattern>
+    <template>cycle is part of the exchange family, created from exchange × rhythm</template>
+  </category>
+
+</aiml>

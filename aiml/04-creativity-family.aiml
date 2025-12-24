@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Creativity Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS EVOLUTION</pattern>
+    <template>Evolution is Leap to higher complexity - transformative development</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT EVOLUTION</pattern>
+    <template>Evolution is Leap to higher complexity - transformative development</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN EVOLUTION</pattern>
+    <template>Evolution: Leap to higher complexity - transformative development</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE EVOLUTION</pattern>
+    <template>Leap to higher complexity - transformative development</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF EVOLUTION</pattern>
+    <template>Creative dynamics: balance evolutionary change with continuity</template>
+  </category>
+
+  <category>
+    <pattern>EVOLUTION PRINCIPLE</pattern>
+    <template>The principle of evolution is: Creative dynamics: balance evolutionary change with continuity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF EVOLUTION</pattern>
+    <template>Enable developmental progression</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CREATIVE DYNAMICS</pattern>
+    <template>creative-dynamics is another name for evolution. Leap to higher complexity - transformative development</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS EVOLUTION</pattern>
+    <template>evolution is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS EVOLUTION</pattern>
+    <template>evolution is part of the creativity family, created from creativity × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EMERGENCE</pattern>
+    <template>Emergence is Moment of creative development - novel appearance</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT EMERGENCE</pattern>
+    <template>Emergence is Moment of creative development - novel appearance</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN EMERGENCE</pattern>
+    <template>Emergence: Moment of creative development - novel appearance</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE EMERGENCE</pattern>
+    <template>Moment of creative development - novel appearance</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF EMERGENCE</pattern>
+    <template>Innovative arising: balance emergent novelty with systemic coherence</template>
+  </category>
+
+  <category>
+    <pattern>EMERGENCE PRINCIPLE</pattern>
+    <template>The principle of emergence is: Innovative arising: balance emergent novelty with systemic coherence</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF EMERGENCE</pattern>
+    <template>Enable new forms to arise</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS INNOVATIVE ARISING</pattern>
+    <template>innovative-arising is another name for emergence. Moment of creative development - novel appearance</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS EMERGENCE</pattern>
+    <template>emergence is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS EMERGENCE</pattern>
+    <template>emergence is part of the creativity family, created from creativity × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS GROWTH</pattern>
+    <template>Growth is Developmental increase - expansive flourishing</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT GROWTH</pattern>
+    <template>Growth is Developmental increase - expansive flourishing</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN GROWTH</pattern>
+    <template>Growth: Developmental increase - expansive flourishing</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE GROWTH</pattern>
+    <template>Developmental increase - expansive flourishing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF GROWTH</pattern>
+    <template>Creative prosperity: balance growth rate with resource availability</template>
+  </category>
+
+  <category>
+    <pattern>GROWTH PRINCIPLE</pattern>
+    <template>The principle of growth is: Creative prosperity: balance growth rate with resource availability</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF GROWTH</pattern>
+    <template>Enable increasing capacity and capability</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CREATIVE PROSPERITY</pattern>
+    <template>creative-prosperity is another name for growth. Developmental increase - expansive flourishing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS GROWTH</pattern>
+    <template>growth is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS GROWTH</pattern>
+    <template>growth is part of the creativity family, created from creativity × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ADAPTATION</pattern>
+    <template>Adaptation is Structural alterations - responsive modification</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT ADAPTATION</pattern>
+    <template>Adaptation is Structural alterations - responsive modification</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN ADAPTATION</pattern>
+    <template>Adaptation: Structural alterations - responsive modification</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE ADAPTATION</pattern>
+    <template>Structural alterations - responsive modification</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF ADAPTATION</pattern>
+    <template>Structural adjustments: balance adaptive change with stable identity</template>
+  </category>
+
+  <category>
+    <pattern>ADAPTATION PRINCIPLE</pattern>
+    <template>The principle of adaptation is: Structural adjustments: balance adaptive change with stable identity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF ADAPTATION</pattern>
+    <template>Enable contextual fit</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS STRUCTURAL ADJUSTMENTS</pattern>
+    <template>structural-adjustments is another name for adaptation. Structural alterations - responsive modification</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS ADAPTATION</pattern>
+    <template>adaptation is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS ADAPTATION</pattern>
+    <template>adaptation is part of the creativity family, created from creativity × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS BIFURCATION</pattern>
+    <template>Bifurcation is Point of state change - threshold crossing</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT BIFURCATION</pattern>
+    <template>Bifurcation is Point of state change - threshold crossing</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN BIFURCATION</pattern>
+    <template>Bifurcation: Point of state change - threshold crossing</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE BIFURCATION</pattern>
+    <template>Point of state change - threshold crossing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF BIFURCATION</pattern>
+    <template>Liminal creation: balance stability duration with transformation readiness</template>
+  </category>
+
+  <category>
+    <pattern>BIFURCATION PRINCIPLE</pattern>
+    <template>The principle of bifurcation is: Liminal creation: balance stability duration with transformation readiness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF BIFURCATION</pattern>
+    <template>Enable transformative transitions</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS LIMINAL CREATION</pattern>
+    <template>liminal-creation is another name for bifurcation. Point of state change - threshold crossing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS BIFURCATION</pattern>
+    <template>bifurcation is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS BIFURCATION</pattern>
+    <template>bifurcation is part of the creativity family, created from creativity × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SEED</pattern>
+    <template>Seed is Repeated emergence of beginnings - generative initiation</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT SEED</pattern>
+    <template>Seed is Repeated emergence of beginnings - generative initiation</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SEED</pattern>
+    <template>Seed: Repeated emergence of beginnings - generative initiation</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE SEED</pattern>
+    <template>Repeated emergence of beginnings - generative initiation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF SEED</pattern>
+    <template>Emergent creation: balance seeding frequency with maturation time</template>
+  </category>
+
+  <category>
+    <pattern>SEED PRINCIPLE</pattern>
+    <template>The principle of seed is: Emergent creation: balance seeding frequency with maturation time</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF SEED</pattern>
+    <template>Enable recurring new starts</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EMERGENT CREATION</pattern>
+    <template>emergent-creation is another name for seed. Repeated emergence of beginnings - generative initiation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS SEED</pattern>
+    <template>seed is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS SEED</pattern>
+    <template>seed is part of the creativity family, created from creativity × rhythm</template>
+  </category>
+
+</aiml>

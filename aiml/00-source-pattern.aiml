@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Source Pattern (Zeroth-Order) -->
+  <!-- The foundational ground from which all patterns emerge -->
+
+  <category>
+    <pattern>WHAT IS SOURCE</pattern>
+    <template>The foundational ground from which all patterns emerge</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SOURCE</pattern>
+    <template>Source is the NonDual Origin - The foundational ground from which all patterns emerge. It manifests through 7 aspects: void (ground-source), energy (ground-transformations), pattern (dynamic-order), power (work-rate), transformity (order-accrual), resource (source-distinctions), and autopoiesis (self-creation).</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS VOID</pattern>
+    <template>void is The foundational ground of universal matter/energy consciousness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF VOID</pattern>
+    <template>Signify consciousness necessary for order</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF VOID</pattern>
+    <template>Conscious order</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ENERGY</pattern>
+    <template>energy is Fundamental animating force of reality</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF ENERGY</pattern>
+    <template>Drive dynamic change and transformation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF ENERGY</pattern>
+    <template>Dynamic transformation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS PATTERN</pattern>
+    <template>pattern is Repeated types of order</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF PATTERN</pattern>
+    <template>Provide successful templates of systemic design</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF PATTERN</pattern>
+    <template>Potential and restrictiveness of form</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS POWER</pattern>
+    <template>power is Productivity per unit time</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF POWER</pattern>
+    <template>Provide systemic productivity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF POWER</pattern>
+    <template>Productivity rates</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS TRANSFORMITY</pattern>
+    <template>transformity is Qualitative complexification</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF TRANSFORMITY</pattern>
+    <template>Bring advantages of structural increases in order</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF TRANSFORMITY</pattern>
+    <template>Complexity creation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RESOURCE</pattern>
+    <template>resource is Process of transformation of matter/energy</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF RESOURCE</pattern>
+    <template>Provide different qualities of matter/energy</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF RESOURCE</pattern>
+    <template>Source transformations</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS AUTOPOIESIS</pattern>
+    <template>autopoiesis is Ongoing self-authoring</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF AUTOPOIESIS</pattern>
+    <template>Maintain unique system through creative growth</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF AUTOPOIESIS</pattern>
+    <template>Creative existence</template>
+  </category>
+
+</aiml>
