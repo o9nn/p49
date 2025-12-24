@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Pattern Dynamics 49 Patterns - Master File -->
+  <!-- This file loads all 49 pattern AIML files -->
+
+  <!-- Meta information about the system -->
+  <category>
+    <pattern>WHAT IS PATTERN DYNAMICS</pattern>
+    <template>Pattern Dynamics is a comprehensive framework for understanding complex adaptive systems through 49 archetypal patterns. It consists of 1 zeroth-order pattern (Source), 6 first-order patterns (Rhythm, Polarity, Structure, Exchange, Creativity, Dynamics), and 42 second-order patterns formed through holarchical crossing.</template>
+  </category>
+
+  <category>
+    <pattern>HOW MANY PATTERNS ARE THERE</pattern>
+    <template>There are 49 patterns in total: 1 zeroth-order pattern (Source), 6 first-order patterns, and 42 second-order patterns organized into 7 families.</template>
+  </category>
+
+  <category>
+    <pattern>LIST ALL PATTERNS</pattern>
+    <template>The 49 Pattern Dynamics patterns include: Source (zeroth-order); Rhythm, Polarity, Structure, Exchange, Creativity, Dynamics (first-order); and 42 second-order patterns organized into 7 families (Source, Dynamics, Creativity, Exchange, Structure, Polarity, Rhythm families). Each family contains 6 patterns.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE FIRST ORDER PATTERNS</pattern>
+    <template>The 6 first-order patterns are: Rhythm (temporality), Polarity (differentiation), Structure (spatiality), Exchange (relationality), Creativity (generativity), and Dynamics (processuality).</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS INTEGRAL SEMIOTIC REALISM</pattern>
+    <template>Integral Semiotic Realism (ISR) is the theoretical framework integrating Peircean Semiotics (Sign-Object-Interpretant), Critical Realism (stratified ontology), Integral Theory (multi-perspectival AQAL), and Nondual Philosophy (NonDual Origin as source). Each pattern is structured through this ISR lens.</template>
+  </category>
+
+  <!-- Load all pattern files -->
+  <learn>00-source-pattern.aiml</learn>
+  <learn>01-first-order-patterns.aiml</learn>
+  <learn>02-source-family.aiml</learn>
+  <learn>03-dynamics-family.aiml</learn>
+  <learn>04-creativity-family.aiml</learn>
+  <learn>05-exchange-family.aiml</learn>
+  <learn>06-structure-family.aiml</learn>
+  <learn>07-polarity-family.aiml</learn>
+  <learn>08-rhythm-family.aiml</learn>
+
+</aiml>

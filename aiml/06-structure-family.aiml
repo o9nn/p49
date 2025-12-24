@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Structure Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS HOLARCHY</pattern>
+    <template>Holarchy is Nested systems within systems - hierarchical wholeness</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT HOLARCHY</pattern>
+    <template>Holarchy is Nested systems within systems - hierarchical wholeness</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN HOLARCHY</pattern>
+    <template>Holarchy: Nested systems within systems - hierarchical wholeness</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE HOLARCHY</pattern>
+    <template>Nested systems within systems - hierarchical wholeness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF HOLARCHY</pattern>
+    <template>Structural dynamics: balance nested hierarchy with distributed network</template>
+  </category>
+
+  <category>
+    <pattern>HOLARCHY PRINCIPLE</pattern>
+    <template>The principle of holarchy is: Structural dynamics: balance nested hierarchy with distributed network</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF HOLARCHY</pattern>
+    <template>Enable multi-level organization</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS STRUCTURAL DYNAMICS</pattern>
+    <template>structural-dynamics is another name for holarchy. Nested systems within systems - hierarchical wholeness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS HOLARCHY</pattern>
+    <template>holarchy is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS HOLARCHY</pattern>
+    <template>holarchy is part of the structure family, created from structure × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS COMPLEXITY</pattern>
+    <template>Complexity is Number of elements and connections - intricate elaboration</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT COMPLEXITY</pattern>
+    <template>Complexity is Number of elements and connections - intricate elaboration</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN COMPLEXITY</pattern>
+    <template>Complexity: Number of elements and connections - intricate elaboration</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE COMPLEXITY</pattern>
+    <template>Number of elements and connections - intricate elaboration</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF COMPLEXITY</pattern>
+    <template>Order creation: balance complexity increase with manageable simplicity</template>
+  </category>
+
+  <category>
+    <pattern>COMPLEXITY PRINCIPLE</pattern>
+    <template>The principle of complexity is: Order creation: balance complexity increase with manageable simplicity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF COMPLEXITY</pattern>
+    <template>Enable sophisticated organization</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ORDER CREATION</pattern>
+    <template>order-creation is another name for complexity. Number of elements and connections - intricate elaboration</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS COMPLEXITY</pattern>
+    <template>complexity is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS COMPLEXITY</pattern>
+    <template>complexity is part of the structure family, created from structure × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS NETWORK</pattern>
+    <template>Network is Inter-connective architecture - web of relationships</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT NETWORK</pattern>
+    <template>Network is Inter-connective architecture - web of relationships</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN NETWORK</pattern>
+    <template>Network: Inter-connective architecture - web of relationships</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE NETWORK</pattern>
+    <template>Inter-connective architecture - web of relationships</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF NETWORK</pattern>
+    <template>Relational design: balance network connectivity with node autonomy</template>
+  </category>
+
+  <category>
+    <pattern>NETWORK PRINCIPLE</pattern>
+    <template>The principle of network is: Relational design: balance network connectivity with node autonomy</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF NETWORK</pattern>
+    <template>Enable distributed coordination</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RELATIONAL DESIGN</pattern>
+    <template>relational-design is another name for network. Inter-connective architecture - web of relationships</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS NETWORK</pattern>
+    <template>network is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS NETWORK</pattern>
+    <template>network is part of the structure family, created from structure × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS HIERARCHY</pattern>
+    <template>Hierarchy is Ranking of levels - ordered stratification</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT HIERARCHY</pattern>
+    <template>Hierarchy is Ranking of levels - ordered stratification</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN HIERARCHY</pattern>
+    <template>Hierarchy: Ranking of levels - ordered stratification</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE HIERARCHY</pattern>
+    <template>Ranking of levels - ordered stratification</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF HIERARCHY</pattern>
+    <template>Essential structure: balance hierarchical order with horizontal collaboration</template>
+  </category>
+
+  <category>
+    <pattern>HIERARCHY PRINCIPLE</pattern>
+    <template>The principle of hierarchy is: Essential structure: balance hierarchical order with horizontal collaboration</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF HIERARCHY</pattern>
+    <template>Enable vertical organization</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ESSENTIAL STRUCTURE</pattern>
+    <template>essential-structure is another name for hierarchy. Ranking of levels - ordered stratification</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS HIERARCHY</pattern>
+    <template>hierarchy is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS HIERARCHY</pattern>
+    <template>hierarchy is part of the structure family, created from structure × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS HOLON</pattern>
+    <template>Holon is Part/whole duality - simultaneously part and whole</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT HOLON</pattern>
+    <template>Holon is Part/whole duality - simultaneously part and whole</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN HOLON</pattern>
+    <template>Holon: Part/whole duality - simultaneously part and whole</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE HOLON</pattern>
+    <template>Part/whole duality - simultaneously part and whole</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF HOLON</pattern>
+    <template>Part-whole: balance part integrity with whole integration</template>
+  </category>
+
+  <category>
+    <pattern>HOLON PRINCIPLE</pattern>
+    <template>The principle of holon is: Part-whole: balance part integrity with whole integration</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF HOLON</pattern>
+    <template>Enable nested wholeness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS PART WHOLE</pattern>
+    <template>part-whole is another name for holon. Part/whole duality - simultaneously part and whole</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS HOLON</pattern>
+    <template>holon is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS HOLON</pattern>
+    <template>holon is part of the structure family, created from structure × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS BOUNDARY</pattern>
+    <template>Boundary is Design of limiting edge - interface demarcation</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT BOUNDARY</pattern>
+    <template>Boundary is Design of limiting edge - interface demarcation</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN BOUNDARY</pattern>
+    <template>Boundary: Design of limiting edge - interface demarcation</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE BOUNDARY</pattern>
+    <template>Design of limiting edge - interface demarcation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF BOUNDARY</pattern>
+    <template>Edge pattern: balance boundary permeability with boundary integrity</template>
+  </category>
+
+  <category>
+    <pattern>BOUNDARY PRINCIPLE</pattern>
+    <template>The principle of boundary is: Edge pattern: balance boundary permeability with boundary integrity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF BOUNDARY</pattern>
+    <template>Enable identity differentiation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EDGE PATTERN</pattern>
+    <template>edge-pattern is another name for boundary. Design of limiting edge - interface demarcation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS BOUNDARY</pattern>
+    <template>boundary is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS BOUNDARY</pattern>
+    <template>boundary is part of the structure family, created from structure × rhythm</template>
+  </category>
+
+</aiml>

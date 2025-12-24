@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Source Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS ENERGY</pattern>
+    <template>Energy is The fundamental animating force of reality - rhythmic vibration in space/time</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT ENERGY</pattern>
+    <template>Energy is The fundamental animating force of reality - rhythmic vibration in space/time</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN ENERGY</pattern>
+    <template>Energy: The fundamental animating force of reality - rhythmic vibration in space/time</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE ENERGY</pattern>
+    <template>The fundamental animating force of reality - rhythmic vibration in space/time</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF ENERGY</pattern>
+    <template>Dynamic transformation: balance energy use with availability</template>
+  </category>
+
+  <category>
+    <pattern>ENERGY PRINCIPLE</pattern>
+    <template>The principle of energy is: Dynamic transformation: balance energy use with availability</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF ENERGY</pattern>
+    <template>Drive dynamic change and transformation processes</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS GROUND TRANSFORMATIONS</pattern>
+    <template>ground-transformations is another name for energy. The fundamental animating force of reality - rhythmic vibration in space/time</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS ENERGY</pattern>
+    <template>energy is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS ENERGY</pattern>
+    <template>energy is part of the source family, created from source × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS PATTERN</pattern>
+    <template>Pattern is Repeated types of order - recurrent design arrangements</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT PATTERN</pattern>
+    <template>Pattern is Repeated types of order - recurrent design arrangements</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN PATTERN</pattern>
+    <template>Pattern: Repeated types of order - recurrent design arrangements</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE PATTERN</pattern>
+    <template>Repeated types of order - recurrent design arrangements</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF PATTERN</pattern>
+    <template>Potential and restrictiveness of form: balance patterned forms with unrestricted states</template>
+  </category>
+
+  <category>
+    <pattern>PATTERN PRINCIPLE</pattern>
+    <template>The principle of pattern is: Potential and restrictiveness of form: balance patterned forms with unrestricted states</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF PATTERN</pattern>
+    <template>Provide successful templates of systemic design</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DYNAMIC ORDER</pattern>
+    <template>dynamic-order is another name for pattern. Repeated types of order - recurrent design arrangements</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS PATTERN</pattern>
+    <template>pattern is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS PATTERN</pattern>
+    <template>pattern is part of the source family, created from source × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS POWER</pattern>
+    <template>Power is Productivity per unit time - rate and efficiency of systemic functioning</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT POWER</pattern>
+    <template>Power is Productivity per unit time - rate and efficiency of systemic functioning</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN POWER</pattern>
+    <template>Power: Productivity per unit time - rate and efficiency of systemic functioning</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE POWER</pattern>
+    <template>Productivity per unit time - rate and efficiency of systemic functioning</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF POWER</pattern>
+    <template>Productivity rates: balance work rate with resource flow</template>
+  </category>
+
+  <category>
+    <pattern>POWER PRINCIPLE</pattern>
+    <template>The principle of power is: Productivity rates: balance work rate with resource flow</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF POWER</pattern>
+    <template>Provide systemic productivity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS WORK RATE</pattern>
+    <template>work-rate is another name for power. Productivity per unit time - rate and efficiency of systemic functioning</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS POWER</pattern>
+    <template>power is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS POWER</pattern>
+    <template>power is part of the source family, created from source × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS TRANSFORMITY</pattern>
+    <template>Transformity is Qualitative complexification - transformation to higher complexity</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT TRANSFORMITY</pattern>
+    <template>Transformity is Qualitative complexification - transformation to higher complexity</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN TRANSFORMITY</pattern>
+    <template>Transformity: Qualitative complexification - transformation to higher complexity</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE TRANSFORMITY</pattern>
+    <template>Qualitative complexification - transformation to higher complexity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF TRANSFORMITY</pattern>
+    <template>Complexity creation: balance transformity with available energy</template>
+  </category>
+
+  <category>
+    <pattern>TRANSFORMITY PRINCIPLE</pattern>
+    <template>The principle of transformity is: Complexity creation: balance transformity with available energy</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF TRANSFORMITY</pattern>
+    <template>Bring advantages of structural increases in order</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ORDER ACCRUAL</pattern>
+    <template>order-accrual is another name for transformity. Qualitative complexification - transformation to higher complexity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS TRANSFORMITY</pattern>
+    <template>transformity is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS TRANSFORMITY</pattern>
+    <template>transformity is part of the source family, created from source × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RESOURCE</pattern>
+    <template>Resource is Process of transformation of matter/energy - conservation through transformation</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT RESOURCE</pattern>
+    <template>Resource is Process of transformation of matter/energy - conservation through transformation</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN RESOURCE</pattern>
+    <template>Resource: Process of transformation of matter/energy - conservation through transformation</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE RESOURCE</pattern>
+    <template>Process of transformation of matter/energy - conservation through transformation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF RESOURCE</pattern>
+    <template>Source transformations: balance number of transformations with usefulness</template>
+  </category>
+
+  <category>
+    <pattern>RESOURCE PRINCIPLE</pattern>
+    <template>The principle of resource is: Source transformations: balance number of transformations with usefulness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF RESOURCE</pattern>
+    <template>Provide different qualities of matter/energy for unique purposes</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SOURCE DISTINCTIONS</pattern>
+    <template>source-distinctions is another name for resource. Process of transformation of matter/energy - conservation through transformation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS RESOURCE</pattern>
+    <template>resource is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS RESOURCE</pattern>
+    <template>resource is part of the source family, created from source × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS AUTOPOIESIS</pattern>
+    <template>Autopoiesis is Ongoing self-authoring - maintenance and creative unfolding</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT AUTOPOIESIS</pattern>
+    <template>Autopoiesis is Ongoing self-authoring - maintenance and creative unfolding</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN AUTOPOIESIS</pattern>
+    <template>Autopoiesis: Ongoing self-authoring - maintenance and creative unfolding</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE AUTOPOIESIS</pattern>
+    <template>Ongoing self-authoring - maintenance and creative unfolding</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF AUTOPOIESIS</pattern>
+    <template>Creative existence: balance self-development with self-maintenance</template>
+  </category>
+
+  <category>
+    <pattern>AUTOPOIESIS PRINCIPLE</pattern>
+    <template>The principle of autopoiesis is: Creative existence: balance self-development with self-maintenance</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF AUTOPOIESIS</pattern>
+    <template>Maintain unique system of order through creative growth</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SELF CREATION</pattern>
+    <template>self-creation is another name for autopoiesis. Ongoing self-authoring - maintenance and creative unfolding</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS AUTOPOIESIS</pattern>
+    <template>autopoiesis is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS AUTOPOIESIS</pattern>
+    <template>autopoiesis is part of the source family, created from source × rhythm</template>
+  </category>
+
+</aiml>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Rhythm Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS ENANTIODROMIA</pattern>
+    <template>Enantiodromia is Force of extreme movements - running to opposite</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT ENANTIODROMIA</pattern>
+    <template>Enantiodromia is Force of extreme movements - running to opposite</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN ENANTIODROMIA</pattern>
+    <template>Enantiodromia: Force of extreme movements - running to opposite</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE ENANTIODROMIA</pattern>
+    <template>Force of extreme movements - running to opposite</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF ENANTIODROMIA</pattern>
+    <template>Emergent oppositions: balance movement to extremes with return to center</template>
+  </category>
+
+  <category>
+    <pattern>ENANTIODROMIA PRINCIPLE</pattern>
+    <template>The principle of enantiodromia is: Emergent oppositions: balance movement to extremes with return to center</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF ENANTIODROMIA</pattern>
+    <template>Balance extreme swings</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EMERGENT OPPOSITIONS</pattern>
+    <template>emergent-oppositions is another name for enantiodromia. Force of extreme movements - running to opposite</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS ENANTIODROMIA</pattern>
+    <template>enantiodromia is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS ENANTIODROMIA</pattern>
+    <template>enantiodromia is part of the rhythm family, created from rhythm × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SYNCHRONIZATION</pattern>
+    <template>Synchronization is Creative inter-meshing in time - coordinated timing</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT SYNCHRONIZATION</pattern>
+    <template>Synchronization is Creative inter-meshing in time - coordinated timing</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SYNCHRONIZATION</pattern>
+    <template>Synchronization: Creative inter-meshing in time - coordinated timing</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE SYNCHRONIZATION</pattern>
+    <template>Creative inter-meshing in time - coordinated timing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF SYNCHRONIZATION</pattern>
+    <template>Mesh-works: balance synchronized coordination with independent timing</template>
+  </category>
+
+  <category>
+    <pattern>SYNCHRONIZATION PRINCIPLE</pattern>
+    <template>The principle of synchronization is: Mesh-works: balance synchronized coordination with independent timing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF SYNCHRONIZATION</pattern>
+    <template>Enable temporal coordination</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS MESH WORKS</pattern>
+    <template>mesh-works is another name for synchronization. Creative inter-meshing in time - coordinated timing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS SYNCHRONIZATION</pattern>
+    <template>synchronization is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS SYNCHRONIZATION</pattern>
+    <template>synchronization is part of the rhythm family, created from rhythm × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS PULSE</pattern>
+    <template>Pulse is Rhythmic surges of resource flows - pulsing circulation</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT PULSE</pattern>
+    <template>Pulse is Rhythmic surges of resource flows - pulsing circulation</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN PULSE</pattern>
+    <template>Pulse: Rhythmic surges of resource flows - pulsing circulation</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE PULSE</pattern>
+    <template>Rhythmic surges of resource flows - pulsing circulation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF PULSE</pattern>
+    <template>Flow surges: balance pulse strength with pulse frequency</template>
+  </category>
+
+  <category>
+    <pattern>PULSE PRINCIPLE</pattern>
+    <template>The principle of pulse is: Flow surges: balance pulse strength with pulse frequency</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF PULSE</pattern>
+    <template>Enable pulsatile exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FLOW SURGES</pattern>
+    <template>flow-surges is another name for pulse. Rhythmic surges of resource flows - pulsing circulation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS PULSE</pattern>
+    <template>pulse is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS PULSE</pattern>
+    <template>pulse is part of the rhythm family, created from rhythm × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CADENCE</pattern>
+    <template>Cadence is Structuring of rhythms - ordered periodicity</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT CADENCE</pattern>
+    <template>Cadence is Structuring of rhythms - ordered periodicity</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN CADENCE</pattern>
+    <template>Cadence: Structuring of rhythms - ordered periodicity</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE CADENCE</pattern>
+    <template>Structuring of rhythms - ordered periodicity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF CADENCE</pattern>
+    <template>Rhythm structures: balance rhythmic complexity with rhythmic simplicity</template>
+  </category>
+
+  <category>
+    <pattern>CADENCE PRINCIPLE</pattern>
+    <template>The principle of cadence is: Rhythm structures: balance rhythmic complexity with rhythmic simplicity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF CADENCE</pattern>
+    <template>Enable rhythmic organization</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RHYTHM STRUCTURES</pattern>
+    <template>rhythm-structures is another name for cadence. Structuring of rhythms - ordered periodicity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS CADENCE</pattern>
+    <template>cadence is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS CADENCE</pattern>
+    <template>cadence is part of the rhythm family, created from rhythm × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SWING</pattern>
+    <template>Swing is Movement between poles - oscillating dynamics</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT SWING</pattern>
+    <template>Swing is Movement between poles - oscillating dynamics</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SWING</pattern>
+    <template>Swing: Movement between poles - oscillating dynamics</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE SWING</pattern>
+    <template>Movement between poles - oscillating dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF SWING</pattern>
+    <template>Iterative extremes: balance swing amplitude with swing frequency</template>
+  </category>
+
+  <category>
+    <pattern>SWING PRINCIPLE</pattern>
+    <template>The principle of swing is: Iterative extremes: balance swing amplitude with swing frequency</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF SWING</pattern>
+    <template>Balance swings to extremes with adjustments to center</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ITERATIVE EXTREMES</pattern>
+    <template>iterative-extremes is another name for swing. Movement between poles - oscillating dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS SWING</pattern>
+    <template>swing is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS SWING</pattern>
+    <template>swing is part of the rhythm family, created from rhythm × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS REPETITION</pattern>
+    <template>Repetition is Simple ongoing recurrence - cyclic return</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT REPETITION</pattern>
+    <template>Repetition is Simple ongoing recurrence - cyclic return</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN REPETITION</pattern>
+    <template>Repetition: Simple ongoing recurrence - cyclic return</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE REPETITION</pattern>
+    <template>Simple ongoing recurrence - cyclic return</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF REPETITION</pattern>
+    <template>Recurrent order: balance repetition with variation</template>
+  </category>
+
+  <category>
+    <pattern>REPETITION PRINCIPLE</pattern>
+    <template>The principle of repetition is: Recurrent order: balance repetition with variation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF REPETITION</pattern>
+    <template>Enable pattern persistence</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RECURRENT ORDER</pattern>
+    <template>recurrent-order is another name for repetition. Simple ongoing recurrence - cyclic return</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS REPETITION</pattern>
+    <template>repetition is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS REPETITION</pattern>
+    <template>repetition is part of the rhythm family, created from rhythm × rhythm</template>
+  </category>
+
+</aiml>

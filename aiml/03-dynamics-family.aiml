@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Dynamics Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS SYSTEM</pattern>
+    <template>System is Ordered activity of synergistic whole - integrated functioning</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT SYSTEM</pattern>
+    <template>System is Ordered activity of synergistic whole - integrated functioning</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SYSTEM</pattern>
+    <template>System: Ordered activity of synergistic whole - integrated functioning</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE SYSTEM</pattern>
+    <template>Ordered activity of synergistic whole - integrated functioning</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF SYSTEM</pattern>
+    <template>Integrated dynamics: balance system coherence with subsystem autonomy</template>
+  </category>
+
+  <category>
+    <pattern>SYSTEM PRINCIPLE</pattern>
+    <template>The principle of system is: Integrated dynamics: balance system coherence with subsystem autonomy</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF SYSTEM</pattern>
+    <template>Enable coordinated whole-system functioning</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS INTEGRATED DYNAMICS</pattern>
+    <template>integrated-dynamics is another name for system. Ordered activity of synergistic whole - integrated functioning</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS SYSTEM</pattern>
+    <template>system is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS SYSTEM</pattern>
+    <template>system is part of the dynamics family, created from dynamics × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SPONTANEITY</pattern>
+    <template>Spontaneity is Coordinated impromptu reaction - dynamic responsiveness</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT SPONTANEITY</pattern>
+    <template>Spontaneity is Coordinated impromptu reaction - dynamic responsiveness</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SPONTANEITY</pattern>
+    <template>Spontaneity: Coordinated impromptu reaction - dynamic responsiveness</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE SPONTANEITY</pattern>
+    <template>Coordinated impromptu reaction - dynamic responsiveness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF SPONTANEITY</pattern>
+    <template>Dynamic creativity: balance spontaneous response with deliberate planning</template>
+  </category>
+
+  <category>
+    <pattern>SPONTANEITY PRINCIPLE</pattern>
+    <template>The principle of spontaneity is: Dynamic creativity: balance spontaneous response with deliberate planning</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF SPONTANEITY</pattern>
+    <template>Enable adaptive responses to novelty</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DYNAMIC CREATIVITY</pattern>
+    <template>dynamic-creativity is another name for spontaneity. Coordinated impromptu reaction - dynamic responsiveness</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS SPONTANEITY</pattern>
+    <template>spontaneity is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS SPONTANEITY</pattern>
+    <template>spontaneity is part of the dynamics family, created from dynamics × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FEEDBACK</pattern>
+    <template>Feedback is Dynamic adjustments through causal loops - self-regulation</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT FEEDBACK</pattern>
+    <template>Feedback is Dynamic adjustments through causal loops - self-regulation</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN FEEDBACK</pattern>
+    <template>Feedback: Dynamic adjustments through causal loops - self-regulation</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE FEEDBACK</pattern>
+    <template>Dynamic adjustments through causal loops - self-regulation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF FEEDBACK</pattern>
+    <template>Adjustment dynamics: balance feedback sensitivity with stability</template>
+  </category>
+
+  <category>
+    <pattern>FEEDBACK PRINCIPLE</pattern>
+    <template>The principle of feedback is: Adjustment dynamics: balance feedback sensitivity with stability</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF FEEDBACK</pattern>
+    <template>Enable self-correcting behavior</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ADJUSTMENT DYNAMICS</pattern>
+    <template>adjustment-dynamics is another name for feedback. Dynamic adjustments through causal loops - self-regulation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS FEEDBACK</pattern>
+    <template>feedback is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS FEEDBACK</pattern>
+    <template>feedback is part of the dynamics family, created from dynamics × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS SYNERGY</pattern>
+    <template>Synergy is Benefit through combination - emergent whole greater than parts</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT SYNERGY</pattern>
+    <template>Synergy is Benefit through combination - emergent whole greater than parts</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN SYNERGY</pattern>
+    <template>Synergy: Benefit through combination - emergent whole greater than parts</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE SYNERGY</pattern>
+    <template>Benefit through combination - emergent whole greater than parts</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF SYNERGY</pattern>
+    <template>Dynamical structures: balance synergistic integration with component integrity</template>
+  </category>
+
+  <category>
+    <pattern>SYNERGY PRINCIPLE</pattern>
+    <template>The principle of synergy is: Dynamical structures: balance synergistic integration with component integrity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF SYNERGY</pattern>
+    <template>Enable cooperative advantage</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DYNAMICAL STRUCTURES</pattern>
+    <template>dynamical-structures is another name for synergy. Benefit through combination - emergent whole greater than parts</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS SYNERGY</pattern>
+    <template>synergy is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS SYNERGY</pattern>
+    <template>synergy is part of the dynamics family, created from dynamics × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS AGENCY-COMMUNION</pattern>
+    <template>Agency-communion is Tension between integration and disintegration - push-pull dynamics</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT AGENCY-COMMUNION</pattern>
+    <template>Agency-communion is Tension between integration and disintegration - push-pull dynamics</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN AGENCY-COMMUNION</pattern>
+    <template>Agency-communion: Tension between integration and disintegration - push-pull dynamics</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE AGENCY-COMMUNION</pattern>
+    <template>Tension between integration and disintegration - push-pull dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF AGENCY-COMMUNION</pattern>
+    <template>Dynamic polarity: balance agency drives with communion drives</template>
+  </category>
+
+  <category>
+    <pattern>AGENCY-COMMUNION PRINCIPLE</pattern>
+    <template>The principle of agency-communion is: Dynamic polarity: balance agency drives with communion drives</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF AGENCY-COMMUNION</pattern>
+    <template>Balance wholeness-seeking and individuality-seeking forces</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DYNAMIC POLARITY</pattern>
+    <template>dynamic-polarity is another name for agency-communion. Tension between integration and disintegration - push-pull dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS AGENCY-COMMUNION</pattern>
+    <template>agency-communion is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS AGENCY-COMMUNION</pattern>
+    <template>agency-communion is part of the dynamics family, created from dynamics × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ITERATE</pattern>
+    <template>Iterate is Repeated cycles of incremental change - iterative development</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT ITERATE</pattern>
+    <template>Iterate is Repeated cycles of incremental change - iterative development</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN ITERATE</pattern>
+    <template>Iterate: Repeated cycles of incremental change - iterative development</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE ITERATE</pattern>
+    <template>Repeated cycles of incremental change - iterative development</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF ITERATE</pattern>
+    <template>Dynamic rhythm: balance iteration frequency with iteration magnitude</template>
+  </category>
+
+  <category>
+    <pattern>ITERATE PRINCIPLE</pattern>
+    <template>The principle of iterate is: Dynamic rhythm: balance iteration frequency with iteration magnitude</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF ITERATE</pattern>
+    <template>Enable step-by-step refinement</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DYNAMIC RHYTHM</pattern>
+    <template>dynamic-rhythm is another name for iterate. Repeated cycles of incremental change - iterative development</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS ITERATE</pattern>
+    <template>iterate is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS ITERATE</pattern>
+    <template>iterate is part of the dynamics family, created from dynamics × rhythm</template>
+  </category>
+
+</aiml>

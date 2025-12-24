@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Polarity Family (6 second-order patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS COMPETITION-COOPERATION</pattern>
+    <template>Competition-cooperation is Fundamental systems-level duality - opposing collaborative modes</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT COMPETITION-COOPERATION</pattern>
+    <template>Competition-cooperation is Fundamental systems-level duality - opposing collaborative modes</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN COMPETITION-COOPERATION</pattern>
+    <template>Competition-cooperation: Fundamental systems-level duality - opposing collaborative modes</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE COMPETITION-COOPERATION</pattern>
+    <template>Fundamental systems-level duality - opposing collaborative modes</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF COMPETITION-COOPERATION</pattern>
+    <template>Part-whole polarity: balance competition with cooperation</template>
+  </category>
+
+  <category>
+    <pattern>COMPETITION-COOPERATION PRINCIPLE</pattern>
+    <template>The principle of competition-cooperation is: Part-whole polarity: balance competition with cooperation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF COMPETITION-COOPERATION</pattern>
+    <template>Balance competitive and cooperative forces</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS PART WHOLE POLARITY</pattern>
+    <template>part-whole-polarity is another name for competition-cooperation. Fundamental systems-level duality - opposing collaborative modes</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS COMPETITION-COOPERATION</pattern>
+    <template>competition-cooperation is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS COMPETITION-COOPERATION</pattern>
+    <template>competition-cooperation is part of the polarity family, created from polarity × dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS ORDER-CHAOS</pattern>
+    <template>Order-chaos is Oppositional creative dynamics - edge of possibility</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT ORDER-CHAOS</pattern>
+    <template>Order-chaos is Oppositional creative dynamics - edge of possibility</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN ORDER-CHAOS</pattern>
+    <template>Order-chaos: Oppositional creative dynamics - edge of possibility</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE ORDER-CHAOS</pattern>
+    <template>Oppositional creative dynamics - edge of possibility</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF ORDER-CHAOS</pattern>
+    <template>Liminal polarity: balance order maintenance with chaos exploration</template>
+  </category>
+
+  <category>
+    <pattern>ORDER-CHAOS PRINCIPLE</pattern>
+    <template>The principle of order-chaos is: Liminal polarity: balance order maintenance with chaos exploration</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF ORDER-CHAOS</pattern>
+    <template>Balance structure with fluidity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS LIMINAL POLARITY</pattern>
+    <template>liminal-polarity is another name for order-chaos. Oppositional creative dynamics - edge of possibility</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS ORDER-CHAOS</pattern>
+    <template>order-chaos is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS ORDER-CHAOS</pattern>
+    <template>order-chaos is part of the polarity family, created from polarity × creativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS FLOWS-STORES</pattern>
+    <template>Flows-stores is Dualistic form of resources - movement and storage</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT FLOWS-STORES</pattern>
+    <template>Flows-stores is Dualistic form of resources - movement and storage</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN FLOWS-STORES</pattern>
+    <template>Flows-stores: Dualistic form of resources - movement and storage</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE FLOWS-STORES</pattern>
+    <template>Dualistic form of resources - movement and storage</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF FLOWS-STORES</pattern>
+    <template>Relational states: balance resource flows with resource stores</template>
+  </category>
+
+  <category>
+    <pattern>FLOWS-STORES PRINCIPLE</pattern>
+    <template>The principle of flows-stores is: Relational states: balance resource flows with resource stores</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF FLOWS-STORES</pattern>
+    <template>Balance flow dynamics with storage capacity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RELATIONAL STATES</pattern>
+    <template>relational-states is another name for flows-stores. Dualistic form of resources - movement and storage</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS FLOWS-STORES</pattern>
+    <template>flows-stores is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS FLOWS-STORES</pattern>
+    <template>flows-stores is part of the polarity family, created from polarity × exchange</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS INPUT-OUTPUT</pattern>
+    <template>Input-output is Systemic structuring dualism - interface dynamics</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT INPUT-OUTPUT</pattern>
+    <template>Input-output is Systemic structuring dualism - interface dynamics</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN INPUT-OUTPUT</pattern>
+    <template>Input-output: Systemic structuring dualism - interface dynamics</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE INPUT-OUTPUT</pattern>
+    <template>Systemic structuring dualism - interface dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF INPUT-OUTPUT</pattern>
+    <template>Polarity structure: balance system inputs with system outputs</template>
+  </category>
+
+  <category>
+    <pattern>INPUT-OUTPUT PRINCIPLE</pattern>
+    <template>The principle of input-output is: Polarity structure: balance system inputs with system outputs</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF INPUT-OUTPUT</pattern>
+    <template>Balance intake with output</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS POLARITY STRUCTURE</pattern>
+    <template>polarity-structure is another name for input-output. Systemic structuring dualism - interface dynamics</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS INPUT-OUTPUT</pattern>
+    <template>input-output is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS INPUT-OUTPUT</pattern>
+    <template>input-output is part of the polarity family, created from polarity × structure</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CONCENTRATION-DIFFUSION</pattern>
+    <template>Concentration-diffusion is Foundational duality - gathering and dispersing</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT CONCENTRATION-DIFFUSION</pattern>
+    <template>Concentration-diffusion is Foundational duality - gathering and dispersing</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN CONCENTRATION-DIFFUSION</pattern>
+    <template>Concentration-diffusion: Foundational duality - gathering and dispersing</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE CONCENTRATION-DIFFUSION</pattern>
+    <template>Foundational duality - gathering and dispersing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF CONCENTRATION-DIFFUSION</pattern>
+    <template>Primordial duality: balance concentration with diffusion</template>
+  </category>
+
+  <category>
+    <pattern>CONCENTRATION-DIFFUSION PRINCIPLE</pattern>
+    <template>The principle of concentration-diffusion is: Primordial duality: balance concentration with diffusion</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF CONCENTRATION-DIFFUSION</pattern>
+    <template>Balance centralization with distribution</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS PRIMORDIAL DUALITY</pattern>
+    <template>primordial-duality is another name for concentration-diffusion. Foundational duality - gathering and dispersing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS CONCENTRATION-DIFFUSION</pattern>
+    <template>concentration-diffusion is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS CONCENTRATION-DIFFUSION</pattern>
+    <template>concentration-diffusion is part of the polarity family, created from polarity × polarity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EXPAND-CONTRACT</pattern>
+    <template>Expand-contract is Fundamental rhythmic duality - opening and closing</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT EXPAND-CONTRACT</pattern>
+    <template>Expand-contract is Fundamental rhythmic duality - opening and closing</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN EXPAND-CONTRACT</pattern>
+    <template>Expand-contract: Fundamental rhythmic duality - opening and closing</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE EXPAND-CONTRACT</pattern>
+    <template>Fundamental rhythmic duality - opening and closing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF EXPAND-CONTRACT</pattern>
+    <template>Rhythmic duality: balance expansion phases with contraction phases</template>
+  </category>
+
+  <category>
+    <pattern>EXPAND-CONTRACT PRINCIPLE</pattern>
+    <template>The principle of expand-contract is: Rhythmic duality: balance expansion phases with contraction phases</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE ROLE OF EXPAND-CONTRACT</pattern>
+    <template>Balance expansion with contraction</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS RHYTHMIC DUALITY</pattern>
+    <template>rhythmic-duality is another name for expand-contract. Fundamental rhythmic duality - opening and closing</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS EXPAND-CONTRACT</pattern>
+    <template>expand-contract is a second-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT FAMILY IS EXPAND-CONTRACT</pattern>
+    <template>expand-contract is part of the polarity family, created from polarity × rhythm</template>
+  </category>
+
+</aiml>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- First-Order Patterns (6 patterns) -->
+  <!-- Generated from Pattern Dynamics 49 implementation -->
+
+  <category>
+    <pattern>WHAT IS RHYTHM</pattern>
+    <template>Rhythm is Temporal patterns, cycles, and repetition in time and space</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT RHYTHM</pattern>
+    <template>Rhythm is Temporal patterns, cycles, and repetition in time and space</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN RHYTHM</pattern>
+    <template>Rhythm: Temporal patterns, cycles, and repetition in time and space</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE RHYTHM</pattern>
+    <template>Temporal patterns, cycles, and repetition in time and space</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF RHYTHM</pattern>
+    <template>Temporal organization through recurrence</template>
+  </category>
+
+  <category>
+    <pattern>RHYTHM PRINCIPLE</pattern>
+    <template>The principle of rhythm is: Temporal organization through recurrence</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DOMAIN OF RHYTHM</pattern>
+    <template>The domain of rhythm is temporality</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS RHYTHM</pattern>
+    <template>rhythm is a first-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS POLARITY</pattern>
+    <template>Polarity is Fundamental dualities and complementary oppositions</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT POLARITY</pattern>
+    <template>Polarity is Fundamental dualities and complementary oppositions</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN POLARITY</pattern>
+    <template>Polarity: Fundamental dualities and complementary oppositions</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE POLARITY</pattern>
+    <template>Fundamental dualities and complementary oppositions</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF POLARITY</pattern>
+    <template>Creative tension through complementary opposition</template>
+  </category>
+
+  <category>
+    <pattern>POLARITY PRINCIPLE</pattern>
+    <template>The principle of polarity is: Creative tension through complementary opposition</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DOMAIN OF POLARITY</pattern>
+    <template>The domain of polarity is differentiation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS POLARITY</pattern>
+    <template>polarity is a first-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS STRUCTURE</pattern>
+    <template>Structure is Organizational forms, boundaries, and spatial arrangements</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT STRUCTURE</pattern>
+    <template>Structure is Organizational forms, boundaries, and spatial arrangements</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN STRUCTURE</pattern>
+    <template>Structure: Organizational forms, boundaries, and spatial arrangements</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE STRUCTURE</pattern>
+    <template>Organizational forms, boundaries, and spatial arrangements</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF STRUCTURE</pattern>
+    <template>Spatial organization through form</template>
+  </category>
+
+  <category>
+    <pattern>STRUCTURE PRINCIPLE</pattern>
+    <template>The principle of structure is: Spatial organization through form</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DOMAIN OF STRUCTURE</pattern>
+    <template>The domain of structure is spatiality</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS STRUCTURE</pattern>
+    <template>structure is a first-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS EXCHANGE</pattern>
+    <template>Exchange is Flows, trades, and reciprocal exchanges between elements</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT EXCHANGE</pattern>
+    <template>Exchange is Flows, trades, and reciprocal exchanges between elements</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN EXCHANGE</pattern>
+    <template>Exchange: Flows, trades, and reciprocal exchanges between elements</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE EXCHANGE</pattern>
+    <template>Flows, trades, and reciprocal exchanges between elements</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF EXCHANGE</pattern>
+    <template>Relational coordination through reciprocity</template>
+  </category>
+
+  <category>
+    <pattern>EXCHANGE PRINCIPLE</pattern>
+    <template>The principle of exchange is: Relational coordination through reciprocity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DOMAIN OF EXCHANGE</pattern>
+    <template>The domain of exchange is relationality</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS EXCHANGE</pattern>
+    <template>exchange is a first-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS CREATIVITY</pattern>
+    <template>Creativity is Emergence of novelty, innovation, and creative transformation</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT CREATIVITY</pattern>
+    <template>Creativity is Emergence of novelty, innovation, and creative transformation</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN CREATIVITY</pattern>
+    <template>Creativity: Emergence of novelty, innovation, and creative transformation</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE CREATIVITY</pattern>
+    <template>Emergence of novelty, innovation, and creative transformation</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF CREATIVITY</pattern>
+    <template>Developmental transformation through novelty</template>
+  </category>
+
+  <category>
+    <pattern>CREATIVITY PRINCIPLE</pattern>
+    <template>The principle of creativity is: Developmental transformation through novelty</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DOMAIN OF CREATIVITY</pattern>
+    <template>The domain of creativity is generativity</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS CREATIVITY</pattern>
+    <template>creativity is a first-order pattern</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS DYNAMICS</pattern>
+    <template>Dynamics is Dynamic processes, feedback loops, and systemic integration</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ABOUT DYNAMICS</pattern>
+    <template>Dynamics is Dynamic processes, feedback loops, and systemic integration</template>
+  </category>
+
+  <category>
+    <pattern>EXPLAIN DYNAMICS</pattern>
+    <template>Dynamics: Dynamic processes, feedback loops, and systemic integration</template>
+  </category>
+
+  <category>
+    <pattern>DESCRIBE DYNAMICS</pattern>
+    <template>Dynamic processes, feedback loops, and systemic integration</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PRINCIPLE OF DYNAMICS</pattern>
+    <template>Process integration through feedback</template>
+  </category>
+
+  <category>
+    <pattern>DYNAMICS PRINCIPLE</pattern>
+    <template>The principle of dynamics is: Process integration through feedback</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DOMAIN OF DYNAMICS</pattern>
+    <template>The domain of dynamics is processuality</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ORDER IS DYNAMICS</pattern>
+    <template>dynamics is a first-order pattern</template>
+  </category>
+
+</aiml>
