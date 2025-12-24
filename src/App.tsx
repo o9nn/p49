@@ -4,6 +4,7 @@ import { InfinityLoop } from './components/InfinityLoop'
 import { NodeDetailPanel } from './components/NodeDetailPanel'
 import { MobileNodeSheet } from './components/MobileNodeSheet'
 import { PatternRelationalExplorer } from './components/PatternRelationalExplorer'
+import { RootedTrees48Explorer } from './components/RootedTrees48Explorer'
 import { Card } from './components/ui/card'
 import { Button } from './components/ui/button'
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './components/ui/tabs'
@@ -69,9 +70,10 @@ function App() {
           </motion.div>
 
           <Tabs defaultValue="infinity-loop" className="w-full">
-            <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
+            <TabsList className="grid w-full max-w-3xl mx-auto grid-cols-3 mb-8">
               <TabsTrigger value="infinity-loop">Infinity Loop</TabsTrigger>
               <TabsTrigger value="relational">Relational Matrix</TabsTrigger>
+              <TabsTrigger value="rooted-trees">Rooted Trees 48</TabsTrigger>
             </TabsList>
 
             <TabsContent value="infinity-loop" className="space-y-8">
@@ -199,6 +201,10 @@ function App() {
 
             <TabsContent value="relational">
               <PatternRelationalExplorer />
+            </TabsContent>
+
+            <TabsContent value="rooted-trees">
+              <RootedTrees48Explorer />
             </TabsContent>
           </Tabs>
         </div>
