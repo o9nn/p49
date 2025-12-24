@@ -57,6 +57,7 @@ Firstness ←──────────────────→ Secondnes
 - **Holarchical Relations**: Seven types of hierarchical pattern organization ✨ NEW
 - **Meta-Patterns**: Six second-order emergent patterns ✨ NEW
 - **Global Processes**: Eight numbered processes governing evolution ✨ NEW
+- **AIML Chatbot Integration**: All 49 patterns in AIML format for conversational AI ✨ NEW
 
 ### Extended Use Cases ✨ NEW
 
@@ -106,6 +107,13 @@ pattern-dynamics-int/
 │   ├── (14 markdown documents - training, workbooks, references) ✨ NEW
 │   ├── INDEX.md                            # Document index ✨ NEW
 │   └── README.md                           # Patterns overview
+│
+├── aiml/                           # AIML chatbot implementation ✨ NEW
+│   ├── patterns-49-master.aiml            # Master AIML file
+│   ├── 00-source-pattern.aiml             # Source pattern (zeroth-order)
+│   ├── 01-first-order-patterns.aiml       # 6 first-order patterns
+│   ├── 02-08-*-family.aiml                # 7 second-order families (42 patterns)
+│   └── README.md                           # AIML documentation
 │
 ├── INTEGRATION.md                  # Integration guide
 ├── ADVANCED-PATTERNS.md            # Advanced patterns docs ✨ NEW
@@ -169,6 +177,12 @@ guile -l pattern-archetype.scm -l advanced-patterns.scm -l extended-use-cases.sc
 - **Practice Guides**: Decision-making and workshop materials
 - **References**: Comprehensive PD documentation (1.4MB total)
 
+### AIML Chatbot Implementation ✨ NEW
+
+- [**aiml/README.md**](./aiml/README.md) - Complete AIML documentation and usage
+- [**examples/CHATBOT-EXAMPLE.md**](./examples/CHATBOT-EXAMPLE.md) - Chatbot integration examples
+- **10 AIML Files**: All 49 patterns in conversational format (496 query patterns)
+
 ## 💡 Quick Examples
 
 ### TypeScript
@@ -212,6 +226,28 @@ console.log(expr);  // "source ⊂ dynamics → Creative Grace"
 ;; Run demonstrations
 (run-all-use-cases)
 ```
+
+### AIML (Chatbot)
+
+```python
+import aiml
+
+# Create kernel and load patterns
+kernel = aiml.Kernel()
+kernel.learn("aiml/patterns-49-master.aiml")
+
+# Query patterns
+response = kernel.respond("WHAT IS RHYTHM")
+print(response)  # "Rhythm is Temporal patterns, cycles, and repetition in time and space"
+
+response = kernel.respond("WHAT IS THE PRINCIPLE OF FEEDBACK")
+print(response)  # "Adjustment dynamics: balance feedback sensitivity with stability"
+
+response = kernel.respond("WHAT FAMILY IS SYNERGY")
+print(response)  # "synergy is part of the dynamics family, created from dynamics × structure"
+```
+
+See [examples/CHATBOT-EXAMPLE.md](./examples/CHATBOT-EXAMPLE.md) for complete usage guide.
 
 ## 🎯 Use Cases
 
