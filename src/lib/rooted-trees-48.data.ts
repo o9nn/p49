@@ -243,6 +243,13 @@ export function generateRootedTrees(
     return result;
   }
   
+  // Generate all smaller trees first
+  for (let i = 1; i < n; i++) {
+    if (!cache[i]) {
+      generateRootedTrees(i, cache);
+    }
+  }
+  
   const trees: RootedTree[] = [];
   
   for (const partition of partitions(n - 1)) {
