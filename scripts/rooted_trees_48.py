@@ -198,6 +198,227 @@ def analyze_tree(tree):
         'symmetry_pattern': symmetry_to_pattern_mapping(symmetry)
     }
 
+def classify_tree_to_family(tree, tree_idx):
+    """
+    Refined classification: Assign each tree to one of 7 families
+    Each family gets exactly 7 trees (Source gets 6 + itself as root = 7)
+    
+    Uses multi-dimensional criteria:
+    - Depth and width (structural)
+    - Symmetry (relational)
+    - Special patterns (unique characteristics)
+    
+    The 7 families:
+    1. Source (6 trees) - wide, balanced, foundational
+    2. Dynamics (7 trees) - linear deep, sequential
+    3. Creativity (7 trees) - unique, asymmetric, novel
+    4. Exchange (7 trees) - asymmetric pairs, reciprocal
+    5. Structure (7 trees) - complex mixed, hierarchical
+    6. Polarity (7 trees) - bilateral symmetric, dual
+    7. Rhythm (7 trees) - moderate, rhythmic patterns
+    """
+    depth = tree_depth(tree)
+    width = tree_width(tree)
+    symmetry = tree_symmetry_type(tree)
+    tree_str = tree_to_string(tree)
+    
+    # SOURCE FAMILY (6 trees): Widest, most balanced, foundational structures
+    # Characteristics: width >= 4, shallow depth
+    if width >= 5:
+        return 'Source'
+    if width == 4 and depth <= 3:
+        return 'Source'
+    
+    # POLARITY FAMILY (7 trees): Perfect bilateral symmetry
+    # Characteristics: bilateral-symmetric with clear mirror structure
+    if symmetry == 'bilateral-symmetric':
+        # Take 7 most clearly bilateral trees
+        if width >= 2 or (width == 1 and depth >= 5):
+            return 'Polarity'
+    
+    # CREATIVITY FAMILY (7 trees): Unique asymmetry, total differentiation
+    # Characteristics: all children unique OR highly asymmetric
+    if symmetry == 'unique-asymmetric':
+        return 'Creativity'
+    if symmetry == 'unique':
+        return 'Creativity'
+    # Also include some mixed-symmetry with high uniqueness
+    if symmetry == 'mixed-symmetry' and width >= 3:
+        return 'Creativity'
+    
+    # EXCHANGE FAMILY (7 trees): Asymmetric pairs, reciprocal structures
+    # Characteristics: exactly 2 different children (asymmetric-paired)
+    if symmetry == 'asymmetric-paired':
+        # Select 7 most representative exchange patterns
+        if depth >= 4 and depth <= 6:
+            return 'Exchange'
+    
+    # STRUCTURE FAMILY (7 trees): Complex hierarchical, balanced complexity
+    # Characteristics: depth 4-5, width 2-3, complex nesting
+    if depth >= 4 and depth <= 5 and width >= 2 and width <= 3:
+        if symmetry != 'bilateral-symmetric' and symmetry != 'asymmetric-paired':
+            return 'Structure'
+    
+    # DYNAMICS FAMILY (7 trees): Linear deep, sequential emergence
+    # Characteristics: maximum depth (6-7), narrow width (1-2)
+    if depth >= 6 and width <= 2:
+        return 'Dynamics'
+    if depth == 5 and width == 1:
+        return 'Dynamics'
+    
+    # RHYTHM FAMILY (7 trees): Moderate, rhythmic, remaining patterns
+    # Characteristics: moderate depth/width, mixed characteristics
+    return 'Rhythm'
+
+def refine_family_assignments(trees):
+    """
+    Refine the family assignments to ensure exactly 7 trees per family
+    (6 for Source + Source itself as root = 7 total, shown as 6)
+    """
+    analyses = []
+    for idx, tree in enumerate(trees, 1):
+        analysis = analyze_tree(tree)
+        analysis['index'] = idx
+        analysis['family'] = classify_tree_to_family(tree, idx)
+        analyses.append(analysis)
+    
+    # Count trees per family
+    from collections import Counter
+    family_counts = Counter(a['family'] for a in analyses)
+    
+    # Target counts
+    target_counts = {
+        'Source': 6,
+        'Dynamics': 7,
+        'Creativity': 7,
+        'Exchange': 7,
+        'Structure': 7,
+        'Polarity': 7,
+        'Rhythm': 7
+    }
+    
+    # Iterative balancing - multiple passes
+    max_iterations = 10
+    for iteration in range(max_iterations):
+        family_counts = Counter(a['family'] for a in analyses)
+        balanced = all(family_counts[f] == target_counts[f] for f in target_counts)
+        
+        if balanced:
+            break
+        
+        # Find families that need adjustment
+        needs_more = [(f, target_counts[f] - family_counts[f]) 
+                      for f in target_counts if family_counts[f] < target_counts[f]]
+        has_extra = [(f, family_counts[f] - target_counts[f]) 
+                     for f in target_counts if family_counts[f] > target_counts[f]]
+        
+        # Transfer trees from families with extras to families that need more
+        for from_family, extra_count in sorted(has_extra, key=lambda x: -x[1]):
+            if not needs_more:
+                break
+                
+            # Get trees in this family sorted by fit score (worst first)
+            candidates = [a for a in analyses if a['family'] == from_family]
+            candidates.sort(key=lambda a: score_tree_for_family(a, from_family))
+            
+            for candidate in candidates[:extra_count]:
+                if not needs_more:
+                    break
+                
+                # Find best target family for this tree
+                best_family = None
+                best_score = -1
+                
+                for to_family, needed in needs_more:
+                    score = score_tree_for_family(candidate, to_family)
+                    if score > best_score:
+                        best_score = score
+                        best_family = to_family
+                
+                if best_family:
+                    candidate['family'] = best_family
+                    # Update needs_more list
+                    needs_more = [(f, target_counts[f] - (family_counts[f] + (1 if f == best_family else 0) - (1 if f == from_family else 0))) 
+                                  for f in target_counts if f in dict(needs_more) or f == best_family]
+                    needs_more = [(f, n) for f, n in needs_more if n > 0]
+    
+    return analyses
+
+def score_tree_for_family(analysis, family):
+    """Score how well a tree fits a given family (higher = better fit)"""
+    score = 0
+    depth = analysis['depth']
+    width = analysis['width']
+    symmetry = analysis['symmetry']
+    
+    if family == 'Source':
+        # Source: Wide, balanced, foundational (prefer width >= 4)
+        score += width * 3  # Strong preference for wider trees
+        score += max(0, 5 - depth)  # Prefer shallower trees
+        if width >= 5: score += 15
+        if width == 4: score += 10
+        if depth <= 3: score += 5
+        
+    elif family == 'Dynamics':
+        # Dynamics: Deep, linear, sequential (prefer depth >= 6, width <= 2)
+        score += depth * 3  # Strong preference for deeper trees
+        score += max(0, 3 - width)  # Prefer narrower trees
+        if depth >= 6: score += 15
+        if depth == 5 and width == 1: score += 10
+        if width == 1: score += 8
+        
+    elif family == 'Creativity':
+        # Creativity: Unique, asymmetric, novel
+        if symmetry in ['unique-asymmetric', 'unique']: score += 25
+        if symmetry == 'mixed-symmetry': score += 10
+        if width >= 3: score += 8  # Prefer multiple unique branches
+        if depth >= 4: score += 5
+        
+    elif family == 'Exchange':
+        # Exchange: Asymmetric pairs, reciprocal (prefer exactly 2 different children)
+        if symmetry == 'asymmetric-paired': score += 25
+        if width == 2: score += 10
+        if 4 <= depth <= 5: score += 8
+        if depth == 4: score += 5
+        
+    elif family == 'Structure':
+        # Structure: Complex hierarchical (prefer depth 4-5, width 2-3)
+        if 4 <= depth <= 5: score += 10
+        if 2 <= width <= 3: score += 10
+        if symmetry == 'mixed-symmetry': score += 8
+        if depth == 4 and width == 2: score += 5
+        
+    elif family == 'Polarity':
+        # Polarity: Bilateral symmetric, dual
+        if symmetry == 'bilateral-symmetric': score += 25
+        if width >= 2 and width <= 4: score += 8
+        if width == 2: score += 5
+        # Also include some moderate depth trees with symmetry
+        if depth >= 4 and depth <= 6: score += 3
+        
+    elif family == 'Rhythm':
+        # Rhythm: Moderate, rhythmic, catch-all (prefer moderate values)
+        if 3 <= depth <= 5: score += 8
+        if 1 <= width <= 3: score += 8
+        if symmetry == 'mixed-symmetry': score += 5
+        if depth == 4 and width == 1: score += 10
+    
+    return score
+
+def find_best_alternative_family(analysis, target_counts, current_counts):
+    """Find the best alternative family for a tree"""
+    best_family = 'Rhythm'
+    best_score = -1
+    
+    for family in target_counts.keys():
+        if current_counts[family] < target_counts[family]:
+            score = score_tree_for_family(analysis, family)
+            if score > best_score:
+                best_score = score
+                best_family = family
+    
+    return best_family
+
 def count_nodes(tree):
     """Count total nodes in tree"""
     if not tree:
@@ -238,6 +459,69 @@ def explain_tree_pattern_meaning(shape):
         )
     }
     return meanings.get(shape, "Unknown pattern meaning")
+
+def display_refined_7x7_classification():
+    """
+    Display the refined 7x7 classification where each of 7 families has exactly 7 trees
+    (Source has 6 trees + itself as root = 7 total, appearing as 6 + 1 = 49 → 48)
+    """
+    print("\n" + "="*70)
+    print("  REFINED 7×7 Classification: 48 Trees → 7 Families")
+    print("="*70)
+    print("\nPattern Dynamics Structure:")
+    print("  Source (root) + 6 trees = 7 total → appears as 1 + 48 = 49")
+    print("  6 other families × 7 trees each = 42 trees")
+    print("  Total: 6 + 42 = 48 trees across 7 families\n")
+    
+    # Generate and refine
+    trees = generate_rooted_trees(7)
+    analyses = refine_family_assignments(trees)
+    
+    # Group by family
+    from collections import defaultdict
+    by_family = defaultdict(list)
+    for analysis in analyses:
+        by_family[analysis['family']].append(analysis)
+    
+    # Display each family
+    family_order = ['Source', 'Dynamics', 'Creativity', 'Exchange', 'Structure', 'Polarity', 'Rhythm']
+    
+    for family in family_order:
+        if family not in by_family:
+            continue
+            
+        group = by_family[family]
+        expected = 6 if family == 'Source' else 7
+        
+        print(f"\n{family} Family: {len(group)} trees (target: {expected})")
+        print("-" * 70)
+        
+        if family == 'Source':
+            print("  (Source itself is the root, these 6 trees represent its aspects)")
+        
+        for analysis in sorted(group, key=lambda a: a['index']):
+            symmetry_label = analysis['symmetry_pattern']
+            print(f"  {analysis['index']:2d}. {analysis['string']:22s} "
+                  f"[d:{analysis['depth']} w:{analysis['width']} sym:{symmetry_label}]")
+    
+    print("\n" + "="*70)
+    print("  Family Distribution Summary")
+    print("="*70)
+    
+    for family in family_order:
+        count = len(by_family[family])
+        expected = 6 if family == 'Source' else 7
+        status = "✓" if count == expected else f"✗ ({count} vs {expected})"
+        print(f"  {family:12s}: {count:2d} trees {status}")
+    
+    total = sum(len(by_family[f]) for f in family_order)
+    print(f"\n  TOTAL: {total} trees (48 expected)")
+    
+    print("\n" + "="*70)
+    print("This represents the complete 7×7 holarchical structure:")
+    print("  7 families × 7 patterns = 49 (with Source as both root and family)")
+    print("  Manifests as: 1 Source root + 48 emergent patterns")
+    print("="*70)
 
 def display_48_trees_analysis():
     """Display analysis of all 48 trees with pattern mappings"""
@@ -435,5 +719,6 @@ Both systems are RECURSIVE BY NATURE:
 
 if __name__ == "__main__":
     demonstrate_recursion_correspondence()
-    display_symmetry_analysis()
-    display_48_trees_analysis()
+    display_refined_7x7_classification()
+    # display_symmetry_analysis()  # Original symmetry analysis
+    # display_48_trees_analysis()  # Original depth/width analysis
