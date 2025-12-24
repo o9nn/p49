@@ -40,6 +40,58 @@ def tree_shape(tree):
     else:
         return 'moderate'
 
+def tree_symmetry_type(tree):
+    """
+    Analyze tree symmetry based on @drzo's insight:
+    - bilateral: symmetric structure like ((A)(A))
+    - asymmetric-paired: different elements in containers like ((A)(B))
+    - unique: totally asymmetric structure (U)
+    - other: mixed or complex symmetry
+    """
+    if not tree:
+        return 'unique'  # Single node is unique
+    
+    if len(tree) == 0:
+        return 'unique'
+    
+    if len(tree) == 1:
+        # Single child - check if it has symmetry
+        return tree_symmetry_type(tree[0])
+    
+    # Check for bilateral symmetry (all children identical)
+    if len(tree) >= 2:
+        first_str = tree_to_string(tree[0])
+        if all(tree_to_string(child) == first_str for child in tree):
+            return 'bilateral-symmetric'
+    
+    # Check for paired asymmetry (2 children, different)
+    if len(tree) == 2:
+        if tree_to_string(tree[0]) != tree_to_string(tree[1]):
+            return 'asymmetric-paired'
+    
+    # Check for total uniqueness (all children different)
+    child_strings = [tree_to_string(child) for child in tree]
+    if len(child_strings) == len(set(child_strings)):
+        return 'unique-asymmetric'
+    
+    return 'mixed-symmetry'
+
+def symmetry_to_pattern_mapping(symmetry):
+    """
+    Map symmetry types to Pattern Dynamics patterns based on @drzo's insight:
+    - Polarity: bilateral symmetry about centre ((A)(A))
+    - Exchange: asymmetric elements in separate containers ((A)(B))
+    - Creativity: total asymmetry of uniqueness (U)
+    """
+    mapping = {
+        'bilateral-symmetric': 'Polarity',
+        'asymmetric-paired': 'Exchange', 
+        'unique-asymmetric': 'Creativity',
+        'unique': 'Creativity',
+        'mixed-symmetry': 'Mixed'
+    }
+    return mapping.get(symmetry, 'Other')
+
 def generate_rooted_trees(n, cache={}):
     """Generate all rooted trees with n nodes using memoization"""
     if n in cache:
@@ -134,13 +186,16 @@ FORTY_EIGHT_TREES_N7 = [
 ]
 
 def analyze_tree(tree):
-    """Analyze tree properties"""
+    """Analyze tree properties including symmetry"""
+    symmetry = tree_symmetry_type(tree)
     return {
         'string': tree_to_string(tree),
         'depth': tree_depth(tree),
         'width': tree_width(tree),
         'shape': tree_shape(tree),
-        'nodes': count_nodes(tree)
+        'nodes': count_nodes(tree),
+        'symmetry': symmetry,
+        'symmetry_pattern': symmetry_to_pattern_mapping(symmetry)
     }
 
 def count_nodes(tree):
@@ -278,6 +333,107 @@ Both systems are RECURSIVE BY NATURE:
   • Exhibit exponential growth in complexity
 """)
 
+def display_symmetry_analysis():
+    """
+    Display symmetry-based analysis of trees mapping to specific patterns
+    Based on @drzo's insight about symmetry types
+    """
+    print("\n" + "="*70)
+    print("  Symmetry-Based Pattern Mapping (@drzo's Insight)")
+    print("="*70)
+    print("""
+Tree symmetry reveals specific pattern correspondences:
+
+1. POLARITY → Bilateral Symmetry: ((A)(A))
+   Trees with identical children reflect the dual nature of polarity.
+   Example: ((())(()))  - perfect mirror symmetry
+   
+2. EXCHANGE → Asymmetric Pairs: ((A)(B))
+   Trees with two different children represent exchange between
+   distinct elements in separate containers.
+   Example: ((())())  - different subtrees, balanced exchange
+   
+3. CREATIVITY → Unique Asymmetry: (U)
+   Trees where all children are unique represent total creativity
+   and the emergence of novelty.
+   Example: (()(())())  - each branch is distinct
+""")
+    
+    # Generate trees and analyze symmetry
+    trees = generate_rooted_trees(7)
+    analyses = [analyze_tree(tree) for tree in trees]
+    
+    # Group by symmetry
+    from collections import defaultdict
+    by_symmetry = defaultdict(list)
+    for idx, analysis in enumerate(analyses, 1):
+        analysis['index'] = idx
+        by_symmetry[analysis['symmetry']].append(analysis)
+    
+    print("\nSymmetry Distribution in the 48 Trees:")
+    print("-" * 70)
+    
+    symmetry_labels = {
+        'bilateral-symmetric': 'Bilateral Symmetric (Polarity)',
+        'asymmetric-paired': 'Asymmetric Paired (Exchange)',
+        'unique-asymmetric': 'Unique Asymmetric (Creativity)',
+        'mixed-symmetry': 'Mixed Symmetry',
+        'unique': 'Unique (Creativity)'
+    }
+    
+    for sym_type, label in symmetry_labels.items():
+        if sym_type in by_symmetry:
+            group = by_symmetry[sym_type]
+            print(f"\n{label}: {len(group)} trees")
+            
+            # Show examples
+            for analysis in group[:5]:  # Show first 5 examples
+                pattern = analysis['symmetry_pattern']
+                print(f"  {analysis['index']:2d}. {analysis['string']:20s} → {pattern}")
+            
+            if len(group) > 5:
+                print(f"      ... and {len(group) - 5} more")
+    
+    print("\n" + "="*70)
+    print("This symmetry perspective adds another dimension to understanding")
+    print("how tree structures correspond to specific Pattern Dynamics patterns.")
+    print("="*70)
+    print()
+
+def demonstrate_recursion_correspondence():
+    """Demonstrate how tree recursion corresponds to pattern recursion"""
+    print("\n" + "="*70)
+    print("  Recursion Correspondence: Trees ↔ Patterns")
+    print("="*70)
+    print("""
+Tree Recursion:
+  tree = [] (leaf)  OR  [subtree1, subtree2, ...]
+  
+  Each tree is composed of subtrees, which are themselves trees.
+  The structure is self-similar at every level.
+
+Pattern Recursion:
+  pattern = Source  OR  emerge(Source, crossings...)
+  
+  Each pattern emerges from Source and contains the triadic cycle.
+  The structure exhibits the same ISR framework at every level.
+
+Key Correspondences:
+  • Leaf node () ↔ Source pattern (undifferentiated unity)
+  • Parent-child ↔ Pattern emergence (Source → first-order)
+  • Sibling subtrees ↔ Co-emergent patterns (same order)
+  • Tree depth ↔ Pattern order (0th, 1st, 2nd)
+  • Nesting level ↔ Holarchical containment
+  • Branching factor ↔ Differentiation richness
+
+Both systems are RECURSIVE BY NATURE:
+  • Defined in terms of themselves
+  • Self-similar at different scales  
+  • Generated through iterative application of simple rules
+  • Exhibit exponential growth in complexity
+""")
+
 if __name__ == "__main__":
     demonstrate_recursion_correspondence()
+    display_symmetry_analysis()
     display_48_trees_analysis()
