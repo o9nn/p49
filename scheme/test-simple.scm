@@ -1,0 +1,40 @@
+;; Simple test to verify the implementation
+(load "pattern-archetype.scm")
+
+(display "Testing Firstness creation...")
+(newline)
+(define f (make-firstness 'test-sign 'test-quality))
+(display f)
+(newline)
+(newline)
+
+(display "Testing Secondness creation...")
+(newline)
+(define s (make-secondness 'test-object 'test-actuality))
+(display s)
+(newline)
+(newline)
+
+(display "Testing Thirdness creation...")
+(newline)
+(define t (make-thirdness 'test-interpretant 'test-law))
+(display t)
+(newline)
+(newline)
+
+(display "Testing Semiotic Cycle creation...")
+(newline)
+(define cycle (make-semiotic-cycle 'perception 'reality 'understanding))
+(display "Cycle created successfully!")
+(newline)
+(newline)
+
+(display "Testing Example Archetype...")
+(newline)
+(display "Example archetype tag: ")
+(display (car example-archetype))
+(newline)
+(newline)
+
+(display "All basic tests passed!")
+(newline)
