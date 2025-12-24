@@ -56,7 +56,7 @@ export function testTreeUtilities() {
   const deep: RootedTree = [[[[]]]] ;
   console.assert(
     treeToString(deep) === '((((())))',
-    'Deep tree should be ((((()))))'
+    'Deep tree should be ((((())))'
   );
   console.assert(treeDepth(deep) === 4, 'Deep tree depth should be 4');
   console.assert(treeWidth(deep) === 1, 'Deep tree width should be 1');

@@ -12,6 +12,15 @@ import {
   type TreeShape,
 } from '../lib/rooted-trees-48.data';
 
+/**
+ * Capitalize hyphenated words
+ */
+function capitalizeHyphenated(text: string): string {
+  return text.replace('-', ' ').split(' ').map(w => 
+    w.charAt(0).toUpperCase() + w.slice(1)
+  ).join(' ');
+}
+
 export function RootedTrees48Explorer() {
   const [selectedTree, setSelectedTree] = useState<TreeAnalysis | null>(null);
   const [familyFilter, setFamilyFilter] = useState<PatternFamily | 'all'>('all');
@@ -123,9 +132,7 @@ export function RootedTrees48Explorer() {
               <option value="all">All Families</option>
               {families.map(family => (
                 <option key={family} value={family}>
-                  {family.replace('-', ' ').split(' ').map(w => 
-                    w.charAt(0).toUpperCase() + w.slice(1)
-                  ).join(' ')}
+                  {capitalizeHyphenated(family)}
                 </option>
               ))}
             </select>
@@ -143,9 +150,7 @@ export function RootedTrees48Explorer() {
               <option value="all">All Shapes</option>
               {shapes.map(shape => (
                 <option key={shape} value={shape}>
-                  {shape.replace('-', ' ').split(' ').map(w => 
-                    w.charAt(0).toUpperCase() + w.slice(1)
-                  ).join(' ')}
+                  {capitalizeHyphenated(shape)}
                 </option>
               ))}
             </select>
@@ -313,9 +318,7 @@ export function RootedTrees48Explorer() {
                 Tree Shape
               </p>
               <p className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-                {selectedTree.shape.replace('-', ' ').split(' ').map(w => 
-                  w.charAt(0).toUpperCase() + w.slice(1)
-                ).join(' ')}
+                {capitalizeHyphenated(selectedTree.shape)}
               </p>
             </div>
 
@@ -325,9 +328,7 @@ export function RootedTrees48Explorer() {
                 Pattern Dynamics Family
               </p>
               <p className="text-lg font-semibold text-emerald-900 dark:text-emerald-100">
-                {selectedTree.patternFamily.replace('-', ' ').split(' ').map(w => 
-                  w.charAt(0).toUpperCase() + w.slice(1)
-                ).join(' ')}
+                {capitalizeHyphenated(selectedTree.patternFamily)}
               </p>
             </div>
 
@@ -354,14 +355,10 @@ export function RootedTrees48Explorer() {
             <div key={stat.shape} className="flex items-center justify-between">
               <div className="flex-1">
                 <p className="font-medium text-gray-900 dark:text-gray-100">
-                  {stat.shape.replace('-', ' ').split(' ').map(w => 
-                    w.charAt(0).toUpperCase() + w.slice(1)
-                  ).join(' ')}
+                  {capitalizeHyphenated(stat.shape)}
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  {stat.patternFamily.replace('-', ' ').split(' ').map(w => 
-                    w.charAt(0).toUpperCase() + w.slice(1)
-                  ).join(' ')}
+                  {capitalizeHyphenated(stat.patternFamily)}
                 </p>
               </div>
               <div className="text-right">
